@@ -28,8 +28,6 @@ class Genre
     genre.save
     genre
 
-    # Or, as a one-liner:
-    # new(name).tap{ |g| g.save }
   end
 
   def artists
